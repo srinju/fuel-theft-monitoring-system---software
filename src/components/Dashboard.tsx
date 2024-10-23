@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import '../styles.css'; // Adjust the path as needed
+
 
 interface SensorData {
   fuel_level: number;
@@ -227,6 +229,7 @@ const Dashboard: React.FC = () => {
 
   return (
     <div className="dashboard-container flex flex-col gap-6">
+      <h1 className='text-center text-5xl'>Dashboard</h1>
       <div className="grid grid-cols-2 gap-4">
         <div className="status-card p-4 border bg-slate-200 rounded-lg shadow-md">
           <h3 className="text-lg font-bold mb-4">Vehicle Status</h3>
@@ -234,7 +237,7 @@ const Dashboard: React.FC = () => {
           <p>Speed: {data.car_status.speed} km/h</p>
           <p>Status: {data.car_status.stopped ? 'Stopped' : 'Running'}</p>
           <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-lg mt-4"
+            className="bg-green-500 text-white px-4 py-2 rounded-lg mt-4"
             onClick={handleStartStopVehicle}
           >
             {data.car_status.stopped ? 'Start Vehicle' : 'Stop Vehicle'}
@@ -314,7 +317,7 @@ const Dashboard: React.FC = () => {
         </div>
 
         <button
-          className="bg-yellow-500 text-white px-4 py-2 rounded-lg mt-4"
+          className="bg-green-500 text-white px-4 py-2 rounded-lg mt-4"
           onClick={clearLogs}
         >
           Clear Logs
@@ -339,7 +342,7 @@ const Dashboard: React.FC = () => {
 
       <div className="fir-section p-4 border rounded-lg shadow-md">
         <button
-          className="bg-red-600 text-white px-4 py-2 rounded-lg"
+          className="bg-green-500 text-white px-4 py-2 rounded-lg"
           onClick={handleFIRclick}
         >
           Generate FIR
