@@ -1,0 +1,84 @@
+{
+  "overall_score": 2,
+  "overall_decision": "No , Not recommended",
+  "overall_feedback": "The candidate struggled to provide in-depth answers to technical questions, indicating a basic understanding of SQL concepts. Behavioral skills were not demonstrated sufficiently, leading to low scores in both categories.",
+  "behavioural_skill": [
+    {
+      "score": 0,
+      "skill": "Analytical and Problem-Solving Skills",
+      "rating": "basic",
+      "feedback": "The candidate did not demonstrate any analytical or problem-solving skills in the interview."
+    },
+    {
+      "score": 0,
+      "skill": "Communication and Collaboration",
+      "rating": "basic",
+      "feedback": "There was no evidence of effective communication or collaboration skills shown during the interview."
+    },
+    {
+      "score": 0,
+      "skill": "Attention to Detail",
+      "rating": "basic",
+      "feedback": "The candidate failed to highlight any relevant experience regarding attention to detail in database tasks."
+    }
+  ],
+  "candidate_details": {
+    "name": "Vijay",
+    "email": "demouser@vizh.ai",
+    "phone": "+1 210-000-0000",
+    "job_role": "Database Engineer",
+    "experience": "5 Years"
+  },
+  "tech_skill_evaluations": [
+    {
+      "score": 25,
+      "skill": "PostgreSQL/MySQL/SQL Server",
+      "feedback": "The candidate provided a basic definition of normalization and denormalization but lacked depth in explaining goals, normal forms, and trade-offs. Overall, the understanding of concepts was very minimal.",
+      "focus_area": "Database design and architecture",
+      "expected_proficiency": "advanced",
+      "candidate_proficiency": "basic"
+    },
+    {
+      "score": 0,
+      "skill": "NoSQL Databases (MongoDB/Cassandra)",
+      "feedback": "The candidate did not address any concepts related to NoSQL databases.",
+      "focus_area": "Data modeling in NoSQL",
+      "expected_proficiency": "intermediate",
+      "candidate_proficiency": "N/A"
+    },
+    {
+      "score": 0,
+      "skill": "Database Performance Tuning",
+      "feedback": "There were no relevant answers provided regarding database performance tuning.",
+      "focus_area": "Indexing strategies",
+      "expected_proficiency": "advanced",
+      "candidate_proficiency": "N/A"
+    },
+    {
+      "score": 0,
+      "skill": "Database Security and Backup Strategies",
+      "feedback": "The candidate did not discuss any concepts related to database security and backup strategies.",
+      "focus_area": "Implementing access controls and encryption",
+      "expected_proficiency": "advanced",
+      "candidate_proficiency": "N/A"
+    },
+    {
+      "score": 0,
+      "skill": "Scripting with Python or Shell",
+      "feedback": "No discussion or examples were provided about scripting for database tasks.",
+      "focus_area": "Automating database tasks",
+      "expected_proficiency": "intermediate",
+      "candidate_proficiency": "N/A"
+    },
+    {
+      "score": 0,
+      "skill": "Proactive Mindset",
+      "feedback": "The candidate did not provide any examples of a proactive approach to improving database processes.",
+      "focus_area": "Identifying opportunities for improvement",
+      "expected_proficiency": "intermediate",
+      "candidate_proficiency": "N/A"
+    }
+  ],
+  "overall_technical_score": 4,
+  "overall_behavioural_score": 0
+}

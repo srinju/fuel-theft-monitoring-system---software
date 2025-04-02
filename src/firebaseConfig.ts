@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, onValue, update, push , remove } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "your api key",
-  authDomain: "your auth domain",
-  databaseURL: "your db url",
-  projectId: "your project id",
-  storageBucket: "your storage bucket string",
-  messagingSenderId: "your messaging sender id",
-  appId: "your app id",
+  apiKey: process.env.apiKey,
+  authDomain: process.env.authDomain,
+  databaseURL: process.env.databaseURL,
+  projectId: process.env.projectId,
+  storageBucket: process.env.storageBucket,
+  messagingSenderId: process.env.messagingSenderId,
+  appId: process.env.appId,
 };
 
 const app = initializeApp(firebaseConfig);
